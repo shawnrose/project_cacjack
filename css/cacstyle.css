@@ -1,0 +1,162 @@
+﻿/* CACTUS JACK - CSS layout - SHAWN ROSE
+------------------------------------------------------*/
+
+
+/*---RESET---*/ 
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {    
+    border: 0;
+    font-family: inherit;
+    font-size: 100%;  
+    font-style: inherit;    
+    font-weight: inherit;   
+    margin: 0;    
+    outline: 0;  
+    padding: 0;    
+    vertical-align: baseline; 
+}
+
+/*---GLOBAL---*/
+
+body {
+	background-color: #212121;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	background-color:#F00;
+    font-family: carbontyperegular, sans-serif;
+	font-weight: bold;
+	font-size: 1.2em;
+	margin: 0;
+}
+
+#container {
+	margin: 0px auto;
+    width: 862px;
+}
+
+img.border {
+    border: 7px solid #999;
+    margin: 0px 12px 0px 0px;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.text {
+	color: #999 ;
+	font-size: 1.2em;
+	margin: 5px;
+}
+
+/*---HEADER---*/
+
+#masthead {
+}
+
+#header {
+	background-image: url('../img/header.png');
+	background-color: #000;
+    position: relative;
+	height: 240px;
+	width: 862px;
+}
+
+    /*---NAV---*/
+
+#topNav {
+	background-color: #000;
+    margin: 0px; 	
+	padding: 15px 0 5px;
+}
+
+#topNav ul li {
+	display: inline;
+    font-family: carbontyperegular, sans-serif;
+    font-size: 1.7em;
+	font-weight: 400;
+	letter-spacing: 1px;
+	margin: 0 35px 0 32px;
+	text-align: center;
+    text-decoration: none;
+	text-transform: uppercase;
+}
+
+#topNav li a:hover {
+      color: #c00;
+      background-color: #999; }
+
+
+/*---CONTENT---*/
+
+#main {
+	background-color: #000;	
+	margin: 0px 0;
+	min-width: 862px;
+	width: 100%;
+}
+
+#page_content {
+    display: inline-block;
+	//padding: 5px 0 10px 0;
+    width: 862px;
+}
+
+    /*---PAGE COLS---*/
+
+#col1 {
+	width: 410px;
+    padding: 20px 10px 10px;
+}
+#col2 {
+	width: 410px;
+    padding: 20px 5px 10px;
+}
+}
+
+/*---FOOTER---*/
+
+#footer {
+	clear: both;
+	font-color: #FFF;
+    font-size: 1em;
+	padding: 15px;
+	text-align: center;
+}
+
+
+/* COMMON LINKS */
+
+a:link {
+    text-decoration: none;
+	text-transform: uppercase;
+}
+a:visited {
+	text-decoration: none;
+	color: #999;
+}
+a:hover {
+	text-decoration: none;
+	color: #F00;
+}
+a:active {
+	text-decoration: none;
+}
+
+  /*FOR LATER USE*/
+
+#left_col {
+	float: left;
+	width: 200px;
+}
+
+#right_col {
+	float: right;
+	width: 200px;
+}
